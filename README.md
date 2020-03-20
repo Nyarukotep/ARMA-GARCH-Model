@@ -7,7 +7,7 @@ The ARMA-GARCH model used ARMA for the linear part and GARCH
 for the residual part.
 
 <p align="center">
-	<img src="https://github.com/Akiha-tohno/ARMA-GARCH-Model/blob/master/images/ARMAGARCH.png" width="500">
+	<img src="https://github.com/Akiha-tohno/ARMA-GARCH-Model/blob/master/images/ARMAGARCH.png" width="300">
 </p>
 
 where 𝑐, 𝜑, 𝜃 are given by ARMA and 𝜔, 𝛼, 𝛽 are given by GARCH. 
