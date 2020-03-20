@@ -4,9 +4,13 @@ A stock price prediction model based on ARMA and GARCH.
 The combination of ARMA and GARCH could be used as a tool to predict stock
 prices, which is better than AR and MA models.\
 The ARMA-GARCH model used ARMA for the linear part and GARCH
-for the residual part.\
+for the residual part.
 
-$\begin{eqnarray} r_t & = & \mu + \epsilon_t + \theta\epsilon_{t-1} \\ \epsilon_t & = & \sigma_t e_t \\ \sigma^2_t & = & \omega + \alpha \epsilon_{t-1}^2 + \beta \sigma^2_{t-1} \end{eqnarray}$
+<p align="center">
+	<img src="https://github.com/Akiha-tohno/ARMA-GARCH-Model/blob/master/images/ARMAGARCH.png" width="500">
+</p>
+
+where 𝑐, 𝜑, 𝜃 are given by ARMA and 𝜔, 𝛼, 𝛽 are given by GARCH. 
 
 ## Prediction result
 
